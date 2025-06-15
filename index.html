@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محول وحدات</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body class="light">
+    <div class="container">
+      <div class="top-bar">
+        <button id="toggle-theme">🌙</button>
+        <button id="toggle-lang">🌐 English</button>
+      </div>
+
+      <h1 id="title">🔁 محول وحدات</h1>
+
+      <div class="converter">
+        <label id="category-label">نوع التحويل:</label>
+        <select id="category" class="input-full"></select>
+
+        <label id="input-label">القيمة:</label>
+        <input type="number" id="input-value" class="input-full" />
+
+        <label id="from-label">من:</label>
+        <select id="from-unit" class="input-full"></select>
+
+        <label id="to-label">إلى:</label>
+        <select id="to-unit" class="input-full"></select>
+
+        <button id="convert-btn" class="input-full">🔄 تحويل</button>
+
+        <div id="result">💡 الناتج سيظهر هنا</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Created By <strong>H Programmer</strong></p>
+      <a href="">
+        <img src="./Logo.png" alt="" />
+      </a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
