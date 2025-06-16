@@ -165,4 +165,10 @@ footer a img:hover {
   .container {
     padding: 0.5rem;
   }
+  footer {
+    position: absolute;
+    top: 91%;
+    width: 100%;
+
+  }
 }
