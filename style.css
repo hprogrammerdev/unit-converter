@@ -145,6 +145,7 @@ footer {
   justify-content: space-around;
   background-color: #222;
   align-items: center;
+  color: #eee;
 }
 footer p strong {
   text-shadow: 0 0 1em #ffd700;
